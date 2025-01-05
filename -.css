@@ -1,0 +1,25 @@
+head, title { all: unset; font-style: italic; }
+body { 
+    margin: 0; padding: 0;
+    font-size: 22px;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    min-height: calc(100vh - 50px);
+}
+footer {
+    font-size: 16px;
+    justify-self: end;
+    font-style: italic;
+}
+html {
+    background-color: #151615;
+    color: #efe;
+    padding: 16px;
+}
+.link, .link:visited {
+    color: #efe;
+}
+
+.link:hover {
+    color: rgb(16, 131, 254);
+}

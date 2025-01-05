@@ -1,0 +1,5 @@
+service.example.com {
+	file_server
+
+	reverse_proxy :9000
+}
