@@ -20,6 +20,11 @@ section.or a.link {
 section.or a.link:hover {
     color: #efe;
 }
+.aquarium {
+    background: transparent;
+    border: none;
+    filter: brightness(95%) sepia(24%);
+}
 p {
     margin: 12px 0;
 }
