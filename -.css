@@ -6,6 +6,23 @@ body {
     grid-template-rows: 1fr auto;
     min-height: calc(100vh - 50px);
 }
+section {
+    margin-top: 24px;
+}
+
+section.or {
+    color: rgb(222, 104, 167);
+    font-size: 18px;
+}
+section.or a.link {
+    color: rgb(222, 104, 167);
+}
+section.or a.link:hover {
+    color: #efe;
+}
+p {
+    margin: 12px 0;
+}
 footer {
     font-size: 16px;
     justify-self: end;
@@ -21,5 +38,5 @@ html {
 }
 
 .link:hover {
-    color: rgb(16, 131, 254);
+    color: rgb(230, 254, 16);
 }
