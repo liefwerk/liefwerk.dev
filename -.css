@@ -28,6 +28,12 @@ section.or a.link:hover {
 p {
     margin: 12px 0;
 }
+p.credits {
+    font-size: 16px;
+    margin-top: .10rem;
+    font-style: italic;
+}
+p.credits {}
 footer {
     font-size: 16px;
     justify-self: end;
