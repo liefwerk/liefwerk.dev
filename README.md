@@ -1,7 +1,7 @@
 # liefwerk.dev
 
 ## To do
-- [] make a local dev server in python
+- [ ] make a local dev server in python
 
 ```python
 #!/usr/bin/env python3
