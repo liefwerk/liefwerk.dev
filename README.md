@@ -2,6 +2,7 @@
 
 ## To do
 - [ ] make a local dev server in python
+- [ ] click on fish
 
 ```python
 #!/usr/bin/env python3
