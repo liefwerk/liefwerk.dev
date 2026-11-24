@@ -1,0 +1,11 @@
+when:
+  - event: push
+    branch: main
+
+steps:
+  - name: verify-files
+    image: alpine:latest
+    commands:
+      - pwd
+      - ls -la
+      - test -f index.html && echo "index.html found!"
