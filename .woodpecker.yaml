@@ -3,9 +3,11 @@ when:
     branch: main
 
 steps:
-  - name: verify-files
+  - name: deploy
     image: alpine:latest
+    volumes:
+      - /var/www/liefwerk.dev:/deploy
     commands:
-      - pwd
-      - ls -la
-      - test -f index.html && echo "index.html found!"
+      - rm -rf /deploy/*
+      - cp -r ./* /deploy/
+      - rm -f /deploy/.woodpecker.yaml
